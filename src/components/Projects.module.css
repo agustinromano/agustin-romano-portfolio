@@ -1,0 +1,21 @@
+.title{
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+
+.body {
+    display: flex;
+    justify-content: space-evenly;    
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+}
+
+.box {
+    border-radius: 10%;
+    border: none;
+    padding: 30px;
+    background-color: rgba(128, 128, 128, 0.085);
+    box-shadow: 10px 5px 5px rgb(88, 88, 88);
+}

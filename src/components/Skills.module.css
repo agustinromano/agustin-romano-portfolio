@@ -1,0 +1,43 @@
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.skills h3 {
+    text-align: center;
+}
+
+.skills {
+    padding: 20px;
+    display: grid;
+        grid-auto-columns: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 0em 0em;
+        grid-template-areas:
+            ". . .";
+    color: black;
+}
+.skillsList{
+    width: 500px;
+    border-radius: 10%;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.085);
+    box-shadow: 10px 5px 5px rgb(88, 88, 88);
+}
+
+.skillsList ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    margin-top: 0;
+    background-color: black;
+}
