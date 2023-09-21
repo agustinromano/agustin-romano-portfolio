@@ -35,7 +35,6 @@ function Skills() {
                     <ul>
                         <li>Node.js</li>
                         <li>Express</li>
-                        <li>JavaScript</li>
                         <li>RESTful APIs</li>
                         <li>PostgreSQL</li>
                         <li>AWS</li>
